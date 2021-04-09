@@ -34,7 +34,7 @@ const LeftPane = () => {
           </Box>
         </VStack>
 
-        <Box pos="fixed" bottom="3%" w="5%" centerContent>
+        <Box pos="fixed" bottom="3%" w="5%" mx="auto" textAlign="center">
           <Link to="/login">
             Login <FiExternalLink style={{ display: "inline" }} />
           </Link>

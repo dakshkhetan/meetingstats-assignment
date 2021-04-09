@@ -9,9 +9,10 @@ import {
   Text,
   Tag,
   Divider,
-  Spinner,
-  useToast
+  Spinner
 } from "@chakra-ui/react";
+
+import ErrorToast from "../components/ErrorToast";
 
 import { getUserRequest } from "../redux/actions/user.action";
 
@@ -26,17 +27,6 @@ const Settings = () => {
   useEffect(() => {
     dispatch(getUserRequest());
   }, [dispatch]);
-
-  const toast = useToast();
-
-  const displayError = () =>
-    toast({
-      title: "Error",
-      description: error.message,
-      status: "error",
-      duration: 5000,
-      isClosable: true
-    });
 
   if (loading) {
     return (
@@ -54,7 +44,7 @@ const Settings = () => {
 
       <Box pl="7%">
         <Container mt="10%" centerContent>
-          {error && displayError()}
+          {error && <ErrorToast error={error} />}
           {!error && user && (
             <Box>
               <Center>
