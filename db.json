@@ -1,0 +1,27 @@
+{
+  "user": {
+    "avatar": "https://lh3.googleusercontent.com/ogw/ADGmqu_qqNeUIMqmr0mbo1AMdFerooqQ3Vl-XwXmEeAy=s83-c-mo",
+    "name": "Daksh Khetan",
+    "address": "New Delhi, India",
+    "phone": "+91-9876543210"
+  },
+  "meetings": {
+    "daily": [
+      { "date": "03-04-2021", "count": 2 },
+      { "date": "04-04-2021", "count": 0 },
+      { "date": "05-04-2021", "count": 5 },
+      { "date": "06-04-2021", "count": 3 },
+      { "date": "07-04-2021", "count": 3 },
+      { "date": "08-04-2021", "count": 5 },
+      { "date": "09-04-2021", "count": 4 },
+      { "date": "10-04-2021", "count": 1 },
+      { "date": "11-04-2021", "count": 0 },
+      { "date": "12-04-2021", "count": 4 },
+      { "date": "13-04-2021", "count": 2 },
+      { "date": "14-04-2021", "count": 3 },
+      { "date": "15-04-2021", "count": 3 },
+      { "date": "16-04-2021", "count": 5 },
+      { "date": "17-04-2021", "count": 1 }
+    ]
+  }
+}
